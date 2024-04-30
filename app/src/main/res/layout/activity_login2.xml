@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_login">
+
+    <TextView
+        android:id="@+id/lb_circle"
+        android:layout_width="406dp"
+        android:layout_height="387dp"
+        android:background="@drawable/circle"
+        android:text="."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lb_circle"
+        android:layout_width="81dp"
+        android:layout_height="80dp"
+        android:background="@drawable/circle"
+        android:text="."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176" />
+
+    <TextView
+        android:id="@+id/lb_circle"
+        android:layout_width="120dp"
+        android:layout_height="124dp"
+        android:background="@drawable/circle"
+        android:text="."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <EditText
+        android:id="@+id/txt_nombre"
+        android:layout_width="263dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/boton"
+        android:drawableRight="@drawable/ic_user"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        app:layout_constraintTop_toTopOf="@+id/lb_circle"
+        tools:layout_editor_absoluteX="74dp" />
+
+    <EditText
+        android:id="@+id/txt_nombre"
+        android:layout_width="263dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/boton"
+        android:drawableRight="@drawable/ic_lock"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="text"
+        app:layout_constraintTop_toTopOf="@+id/lb_circle"
+        tools:layout_editor_absoluteX="74dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        android:fontFamily="@font/chicle"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintTop_toTopOf="@+id/lb_circle"
+        tools:layout_editor_absoluteX="161dp" />
+
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="158dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/circle"
+        android:text="Sign in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lb_circle"
+        app:layout_constraintVertical_bias="0.931" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
